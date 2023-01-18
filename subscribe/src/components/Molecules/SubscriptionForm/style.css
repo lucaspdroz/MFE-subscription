@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.disclaimer {
+    font-size: .8rem;
+    margin: 10px auto;
+    color: rgb(163, 163, 163);
+}
+
+.disclaimer span {
+    font-style: italic;
+}

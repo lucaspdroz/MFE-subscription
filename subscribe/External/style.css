@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    width: 100%;
+    grid-template-areas: 'main aside';
+}
+
+main {
+    grid-area: 'main';
+    height: 100vh;
+    padding: 2rem;
+    color: #fff;
+    background-color: rgb(31, 31, 31);
+}
+
+aside {
+    grid-area: 'aside';
+    width: 300px;
+    padding: 5px 10px;
+}
+
+#bla {
+    height: 240px;
+    background-color: rgb(30, 59, 59);
+    margin: 10px auto 10px;
+    border-radius: 5px;
+
+    padding: 10px;
+    color: #fff;
+}
+
+#bla p{
+    color: rgb(175, 175, 175);
+}
